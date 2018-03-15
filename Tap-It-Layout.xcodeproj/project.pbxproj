@@ -12,6 +12,8 @@
 		0750A2302059D4C6003E83E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0750A22E2059D4C6003E83E5 /* Main.storyboard */; };
 		0750A2322059D4C6003E83E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0750A2312059D4C6003E83E5 /* Assets.xcassets */; };
 		0750A2352059D4C6003E83E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0750A2332059D4C6003E83E5 /* LaunchScreen.storyboard */; };
+		0750A23D205AE9EC003E83E5 /* PlayerScore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750A23C205AE9EC003E83E5 /* PlayerScore.xib */; };
+		0750A23F205AF2E9003E83E5 /* PlayerScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750A23E205AF2E9003E83E5 /* PlayerScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0750A2312059D4C6003E83E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0750A2342059D4C6003E83E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0750A2362059D4C6003E83E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0750A23C205AE9EC003E83E5 /* PlayerScore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerScore.xib; sourceTree = "<group>"; };
+		0750A23E205AF2E9003E83E5 /* PlayerScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				0750A22A2059D4C6003E83E5 /* AppDelegate.swift */,
 				0750A22C2059D4C6003E83E5 /* ViewController.swift */,
 				0750A22E2059D4C6003E83E5 /* Main.storyboard */,
+				0750A23C205AE9EC003E83E5 /* PlayerScore.xib */,
+				0750A23E205AF2E9003E83E5 /* PlayerScore.swift */,
 				0750A2312059D4C6003E83E5 /* Assets.xcassets */,
 				0750A2332059D4C6003E83E5 /* LaunchScreen.storyboard */,
 				0750A2362059D4C6003E83E5 /* Info.plist */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0750A2352059D4C6003E83E5 /* LaunchScreen.storyboard in Resources */,
+				0750A23D205AE9EC003E83E5 /* PlayerScore.xib in Resources */,
 				0750A2322059D4C6003E83E5 /* Assets.xcassets in Resources */,
 				0750A2302059D4C6003E83E5 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0750A22D2059D4C6003E83E5 /* ViewController.swift in Sources */,
+				0750A23F205AF2E9003E83E5 /* PlayerScore.swift in Sources */,
 				0750A22B2059D4C6003E83E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
